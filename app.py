@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # 1. Load the AI Model and the Data
 model = joblib.load('pm25_master_model.pkl')
-df = pd.read_csv('pm25_data.xlsx - Sheet1.csv')
+df = pd.read_excel('pm25_data.xlsx')
 
 # 2. Page Design
 st.set_page_config(page_title="Air Quality Dashboard", page_icon="🍃", layout="wide")
